@@ -1,0 +1,96 @@
+.content{
+    margin-top: 43px;
+}
+.content .content-menu-left{
+    width: 604px;
+    border: 8px #822619 solid;
+    border-radius: 8px;
+    float: left;
+    background: #EBE9D7;
+}
+.content .content-menu-left .content-menu-left-text{
+    margin: 34px 34px 46px 34px;
+}
+.content .content-menu-left .content-menu-left-text h1{
+    font-size: 36px;
+    color: #1B6568;
+}
+.content .content-menu-left .content-menu-left-text img{
+    /*text-align: center;*/
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.content .content-par .content-par-left{
+    width: 380px;
+    float: left;
+}
+.content .content-par .content-par-left h3{
+    font-size: 24px;
+    color: #822619;
+    margin-bottom: 12px;
+}
+.content .content-par .content-par-left p{
+    font-size: 16px;
+    color: #4C1407;
+    line-height:30px;
+}
+.content .content-par .content-par-right p{
+    width: 64px;
+    height: 64px;
+    background: #1b6568;
+    border: 2px solid #822619;
+    border-radius: 50%;
+    font-size: 28px;
+    color: #EBE9D7;
+    text-align: center;
+    line-height: 62px;
+    float: right;
+}
+.content hr{
+    width: 580px;
+    border: 2px #a26f62 dotted;
+    position: relative;
+    left: -22px;
+    margin:20px 0;
+}
+.content-menu-right{
+    width: 280px;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+}
+.content-menu-right h2{
+    font-size: 36px;
+    color: #1B6568;
+    padding-bottom: 42px;
+    border-bottom: 4px dotted #822619;
+}
+.content-menu-right ul li{
+    border-bottom: 4px dotted #822619;
+    padding:8px 0;
+}
+.content-menu-right ul li a{
+    font-size: 32px;
+    color: #822619;
+    text-decoration: none;
+}
+.content-menu-right ul li .breakfast{
+    color: #1B6568;
+}
+.content .content-menu-right .download{
+    display: block;
+    width: 270px;
+    height: 40px;
+    border:4px solid #1b6568;
+    background-color: #822619;
+    border-radius: 5px;
+    margin: 40px auto;
+    font-size: 20px;
+    color:#ebe9d7;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+.content .content-menu-right .download:hover {
+    background: #A83121;
+}

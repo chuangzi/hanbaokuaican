@@ -1,0 +1,101 @@
+.content{
+    margin-top: 35px;
+}
+.content .blog-left{
+    width: 624px;
+    float: left;
+}
+.content .blog-left-l{
+    width: 84px;
+    height: 84px;
+    background: #1b6568;
+    border-radius: 50%;
+    border: 3px solid #822619;
+    text-align: center;
+    float: left;
+}
+.content .blog-left-l p{
+    font-size: 20px;
+    color: #EBE9D7;
+    margin-top: 18px;
+}
+.content .blog-left-r{
+    width: 424px;
+    padding: 20px 50px 32px 30px;
+    border: 8px solid #822619;
+    float: left;
+    margin-left: 12px;
+}
+.content .blog-left-r{
+    background: #ebe9d7;
+}
+.content .blog-left-r .blog-left-r-top img{
+    float: left;
+    margin-right: 20px;
+}
+.content .blog-left-r .blog-left-r-top h1{
+    font-size: 28px;
+    color: #822619;
+    margin-bottom: 88px;
+}
+.content .blog-left-r .blog-left-r-top h1:hover{
+    color: #1B6568;
+}
+.content .blog-left-r .blog-left-r-top p{
+    font-size: 14px;
+    color: #80210B;
+}
+.content .blog-left-r .blog-left-r-top p span{
+    text-decoration: underline;
+    color: #4C1407;
+}
+.content .blog-left-r .blog-left-r-top p span:hover{
+    color: #80210B;
+}
+/*.content .blog-left-r .blog-left-r-top p span:hover{
+    color: #80210B;
+}*/
+.content .blog-left-r .blog-left-r-foot p{
+    font-size: 16px;
+    color: #4C1407;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.content .blog-left .blog-left2{
+    margin-top: 46px;
+    margin-bottom: 170px;
+}
+.content .blog-right{
+    width: 280px;
+    text-align: center;
+    float: right;
+}
+.content .blog-right h2{
+    font-size: 30px;
+    color: #1B6568;
+    margin-top: 46px;
+    padding-bottom: 20px;
+    border-bottom: 3px #822619 dotted;
+}
+.content .blog-right a{
+    display: block;
+    font-size: 16px;
+    color: #3E1C14;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-bottom: 18px;
+    border-bottom: 3px #822619 dotted;
+}
+.content .blog-right p{
+    font-size: 16px;
+    color: #3E1C14;
+    margin-top: 10px;
+}
+.content .blog-right h2:hover,
+.content .blog-right a:hover,
+.content .blog-right p:hover{
+    color: #1B6568;
+}
+
+
+

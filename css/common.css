@@ -1,0 +1,154 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px/*字号/行高*/ "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+/*背景图*/
+body{
+    background:url(../images/bg.png);
+}
+.w{
+    width: 960px;
+    margin:0 auto;
+}
+/*头部开始*/
+.public-header .public-header-logo{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.public-nav .nav-top,
+.public-nav .nav-bottom{
+    height: 8px;
+    background: #822619;
+}
+.public-nav .nav-center{
+    margin:3px 0;
+    height: 46px;
+    background: #1B6568 url(../images/diamond.png) repeat-x center;
+}
+.public-nav .public-nav-menu li{
+    float: left;
+    line-height: 46px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.public-nav .nav-center .public-nav-menu li a{
+    text-decoration: none;
+    color: #94c4c7;
+}
+.public-nav .nav-center .nav-list-w{
+    position: relative;/*相对定位*/
+}
+.public-nav .nav-center .public-nav-waiter{
+    position: absolute;/*绝对定位*/
+    top:-148px;
+    right: 0;
+}
+/*头部结束*/
+
+/*底部开始*/
+.public-footer .public-footer-top{
+    height: 8px;
+    background: #822619;
+    margin-top: 8px;
+}
+.public-footer .public-footer-bottom{
+    background: #1b6568;
+    margin-top: 3px;
+}
+.public-footer-bottom .public-footer-bottom-left{
+    width: 190px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.public-footer-bottom .public-footer-bottom-left h3{
+    color: #ebe9d7;
+    font-size:16px;
+}
+.public-footer-bottom .public-footer-bottom-left p{
+    color: #ebe9d7;
+    font-size: 18px;
+    margin-top: 4px;
+}
+.public-footer-bottom .public-footer-bottom-left li{
+    float: left;
+    margin-right: 6px;
+    margin-top: 18px;
+}
+.public-footer-bottom .public-footer-bottom-middle{
+    float: left;
+    width: 304px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.public-footer-bottom .public-footer-bottom-middle h1{
+    color: #ecead9;
+    font-size: 25px;
+    text-align: center;
+}
+.public-footer-bottom .public-footer-bottom-middle li{
+    color: #ebe9d7;
+    float: left;
+    margin-top: 18px;
+}
+.public-footer-bottom .public-footer-bottom-middle li a{
+    color: #ebe9d7;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 8px;
+}
+.public-footer-bottom .public-footer-bottom-middle p{
+    color: #ebe9d7;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.public-footer-bottom .public-footer-bottom-right{
+    float: left;
+    width: 250px;
+    margin-top: 22px;
+}
+.public-footer-bottom .public-footer-bottom-right h3{
+    font-size: 13px;
+    color: #ebe9d7;
+}
+.public-footer-bottom .public-footer-bottom-right .text{
+    width: 210px;
+    height: 26px;
+    border:4px solid #ac6e66;
+    border-radius: 35px;
+    padding: 0 10px;
+    outline: none;/*去除周围蓝框*/
+}
+.public-footer-bottom .public-footer-bottom-right .subscribe{
+    width: 214px;
+    height: 36px;
+    border:4px solid #ebe9d7;
+    background-color: #822619;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 6px;
+    text-align: center;
+}
+.public-footer-bottom .public-footer-bottom-right .subscribe a{
+    font-size: 20px;
+    color:#d2c2b2;
+    text-decoration: none;
+    line-height: 36px;
+}
+.public-footer-bottom .public-footer-bottom-right .subscribe:hover{
+    background: #a83121;
+}
+.public-nav .nav-center ul li .home,
+.public-nav .nav-center ul li .about,
+.public-nav .nav-center ul li .menu,
+.public-nav .nav-center ul li .contact,
+.public-nav .nav-center ul li .blog{
+    color: #e1e2d1;
+}
+/*底部结束*/

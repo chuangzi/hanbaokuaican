@@ -1,0 +1,35 @@
+.content{
+    margin-top: 43px;
+}
+.content .content-about{
+    border: 8px #822619 solid;
+    border-radius: 8px;
+    background: #EBE9D7;
+}
+.content .content-about-text{
+    margin: 34px 34px 40px 34px;
+}
+.content .content-about h1{
+    font-size: 36px;
+    color: #1B6568;
+}
+.content .content-about h2{
+    font-size: 24px;
+    color: #822619;
+    margin:40px 0;
+}
+.content .content-about p{
+    font-size: 16px;
+    color: #4C1407;
+    line-height:32px;
+}
+.content .content-about p span{
+    text-decoration: underline;
+}
+.content .content-about .content-about-text-list p{
+    line-height:60px;
+}
+.content .content-about .content-about-text-list .last{
+    font-size: 14px;
+}
+
